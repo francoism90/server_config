@@ -37,6 +37,9 @@ fi
 chown $USER:$USER $USER_PATH
 chmod $HOME_DIR_CHMOD $USER_PATH
 
+# Remove other access
+chmod o-rx $USER_PATH
+
 # Allow http user access
 setfacl -m "u:$WEBSERVER_USER:--x" $USER_PATH
 
