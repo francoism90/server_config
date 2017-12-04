@@ -1,5 +1,5 @@
 # server_config
-Basic server configuration with nginx and PHP-fpm in a multi-user seperated and protected environment.
+Basic server configuration with nginx and PHP-fpm in a multi-user seperated and protected environment.  
 Edit configuration examples and script when needed.
 
 Tested and build on Arch Linux.
