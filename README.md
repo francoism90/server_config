@@ -1,2 +1,12 @@
 # server_config
-Basic server configuration with nginx and PHP-fpm (multi-user)
+>Basic server configuration with nginx and PHP-fpm in a multi-user seperated and protected environment.
+>Edit configuration examples and script when needed.
+>Tested and build on Arch Linux.
+
+## Requirements
+- Filesystem with ACL (ext, Btrfs, ..)
+- Nginx
+- PHP-FPM
+
+### Not required
+- Certbot (highly recommended)
